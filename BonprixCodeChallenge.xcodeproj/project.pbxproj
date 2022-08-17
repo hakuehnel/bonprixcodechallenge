@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D158E6D528AD2F6B00E2337C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6D428AD2F6B00E2337C /* AppDelegate.swift */; };
+		D158E6D728AD2F6B00E2337C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6D628AD2F6B00E2337C /* SceneDelegate.swift */; };
+		D158E6D928AD2F6B00E2337C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6D828AD2F6B00E2337C /* ViewController.swift */; };
+		D158E6DC28AD2F6B00E2337C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D158E6DA28AD2F6B00E2337C /* Main.storyboard */; };
+		D158E6DE28AD2F6D00E2337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D158E6DD28AD2F6D00E2337C /* Assets.xcassets */; };
+		D158E6E128AD2F6D00E2337C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D158E6DF28AD2F6D00E2337C /* LaunchScreen.storyboard */; };
+		D158E6EC28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6EB28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift */; };
+		D158E6F628AD2F6D00E2337C /* BonprixCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6F528AD2F6D00E2337C /* BonprixCodeChallengeUITests.swift */; };
+		D158E6F828AD2F6D00E2337C /* BonprixCodeChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6F728AD2F6D00E2337C /* BonprixCodeChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D158E6E828AD2F6D00E2337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D158E6C928AD2F6B00E2337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D158E6D028AD2F6B00E2337C;
+			remoteInfo = BonprixCodeChallenge;
+		};
+		D158E6F228AD2F6D00E2337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D158E6C928AD2F6B00E2337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D158E6D028AD2F6B00E2337C;
+			remoteInfo = BonprixCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D158E6D128AD2F6B00E2337C /* BonprixCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonprixCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E6D428AD2F6B00E2337C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D158E6D628AD2F6B00E2337C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D158E6D828AD2F6B00E2337C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D158E6DB28AD2F6B00E2337C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D158E6DD28AD2F6D00E2337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D158E6E028AD2F6D00E2337C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D158E6E228AD2F6D00E2337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D158E6E728AD2F6D00E2337C /* BonprixCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonprixCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E6EB28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonprixCodeChallengeTests.swift; sourceTree = "<group>"; };
+		D158E6F128AD2F6D00E2337C /* BonprixCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonprixCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E6F528AD2F6D00E2337C /* BonprixCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonprixCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		D158E6F728AD2F6D00E2337C /* BonprixCodeChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonprixCodeChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D158E6CE28AD2F6B00E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6E428AD2F6D00E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6EE28AD2F6D00E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D158E6C828AD2F6B00E2337C = {
+			isa = PBXGroup;
+			children = (
+				D158E6D328AD2F6B00E2337C /* BonprixCodeChallenge */,
+				D158E6EA28AD2F6D00E2337C /* BonprixCodeChallengeTests */,
+				D158E6F428AD2F6D00E2337C /* BonprixCodeChallengeUITests */,
+				D158E6D228AD2F6B00E2337C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D158E6D228AD2F6B00E2337C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6D128AD2F6B00E2337C /* BonprixCodeChallenge.app */,
+				D158E6E728AD2F6D00E2337C /* BonprixCodeChallengeTests.xctest */,
+				D158E6F128AD2F6D00E2337C /* BonprixCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D158E6D328AD2F6B00E2337C /* BonprixCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6D428AD2F6B00E2337C /* AppDelegate.swift */,
+				D158E6D628AD2F6B00E2337C /* SceneDelegate.swift */,
+				D158E6D828AD2F6B00E2337C /* ViewController.swift */,
+				D158E6DA28AD2F6B00E2337C /* Main.storyboard */,
+				D158E6DD28AD2F6D00E2337C /* Assets.xcassets */,
+				D158E6DF28AD2F6D00E2337C /* LaunchScreen.storyboard */,
+				D158E6E228AD2F6D00E2337C /* Info.plist */,
+			);
+			path = BonprixCodeChallenge;
+			sourceTree = "<group>";
+		};
+		D158E6EA28AD2F6D00E2337C /* BonprixCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6EB28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift */,
+			);
+			path = BonprixCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		D158E6F428AD2F6D00E2337C /* BonprixCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6F528AD2F6D00E2337C /* BonprixCodeChallengeUITests.swift */,
+				D158E6F728AD2F6D00E2337C /* BonprixCodeChallengeUITestsLaunchTests.swift */,
+			);
+			path = BonprixCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D158E6D028AD2F6B00E2337C /* BonprixCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E6FB28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallenge" */;
+			buildPhases = (
+				D158E6CD28AD2F6B00E2337C /* Sources */,
+				D158E6CE28AD2F6B00E2337C /* Frameworks */,
+				D158E6CF28AD2F6B00E2337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonprixCodeChallenge;
+			productName = BonprixCodeChallenge;
+			productReference = D158E6D128AD2F6B00E2337C /* BonprixCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D158E6E628AD2F6D00E2337C /* BonprixCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E6FE28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeTests" */;
+			buildPhases = (
+				D158E6E328AD2F6D00E2337C /* Sources */,
+				D158E6E428AD2F6D00E2337C /* Frameworks */,
+				D158E6E528AD2F6D00E2337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D158E6E928AD2F6D00E2337C /* PBXTargetDependency */,
+			);
+			name = BonprixCodeChallengeTests;
+			productName = BonprixCodeChallengeTests;
+			productReference = D158E6E728AD2F6D00E2337C /* BonprixCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D158E6F028AD2F6D00E2337C /* BonprixCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E70128AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeUITests" */;
+			buildPhases = (
+				D158E6ED28AD2F6D00E2337C /* Sources */,
+				D158E6EE28AD2F6D00E2337C /* Frameworks */,
+				D158E6EF28AD2F6D00E2337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D158E6F328AD2F6D00E2337C /* PBXTargetDependency */,
+			);
+			name = BonprixCodeChallengeUITests;
+			productName = BonprixCodeChallengeUITests;
+			productReference = D158E6F128AD2F6D00E2337C /* BonprixCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D158E6C928AD2F6B00E2337C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D158E6D028AD2F6B00E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D158E6E628AD2F6D00E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D158E6D028AD2F6B00E2337C;
+					};
+					D158E6F028AD2F6D00E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D158E6D028AD2F6B00E2337C;
+					};
+				};
+			};
+			buildConfigurationList = D158E6CC28AD2F6B00E2337C /* Build configuration list for PBXProject "BonprixCodeChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D158E6C828AD2F6B00E2337C;
+			productRefGroup = D158E6D228AD2F6B00E2337C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D158E6D028AD2F6B00E2337C /* BonprixCodeChallenge */,
+				D158E6E628AD2F6D00E2337C /* BonprixCodeChallengeTests */,
+				D158E6F028AD2F6D00E2337C /* BonprixCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D158E6CF28AD2F6B00E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E6E128AD2F6D00E2337C /* LaunchScreen.storyboard in Resources */,
+				D158E6DE28AD2F6D00E2337C /* Assets.xcassets in Resources */,
+				D158E6DC28AD2F6B00E2337C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6E528AD2F6D00E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6EF28AD2F6D00E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D158E6CD28AD2F6B00E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E6D928AD2F6B00E2337C /* ViewController.swift in Sources */,
+				D158E6D528AD2F6B00E2337C /* AppDelegate.swift in Sources */,
+				D158E6D728AD2F6B00E2337C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6E328AD2F6D00E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E6EC28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6ED28AD2F6D00E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E6F828AD2F6D00E2337C /* BonprixCodeChallengeUITestsLaunchTests.swift in Sources */,
+				D158E6F628AD2F6D00E2337C /* BonprixCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D158E6E928AD2F6D00E2337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D158E6D028AD2F6B00E2337C /* BonprixCodeChallenge */;
+			targetProxy = D158E6E828AD2F6D00E2337C /* PBXContainerItemProxy */;
+		};
+		D158E6F328AD2F6D00E2337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D158E6D028AD2F6B00E2337C /* BonprixCodeChallenge */;
+			targetProxy = D158E6F228AD2F6D00E2337C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D158E6DA28AD2F6B00E2337C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D158E6DB28AD2F6B00E2337C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D158E6DF28AD2F6D00E2337C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D158E6E028AD2F6D00E2337C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D158E6F928AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D158E6FA28AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D158E6FC28AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonprixCodeChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D158E6FD28AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonprixCodeChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D158E6FF28AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonprixCodeChallenge.app/BonprixCodeChallenge";
+			};
+			name = Debug;
+		};
+		D158E70028AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonprixCodeChallenge.app/BonprixCodeChallenge";
+			};
+			name = Release;
+		};
+		D158E70228AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonprixCodeChallenge;
+			};
+			name = Debug;
+		};
+		D158E70328AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonprixCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D158E6CC28AD2F6B00E2337C /* Build configuration list for PBXProject "BonprixCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E6F928AD2F6D00E2337C /* Debug */,
+				D158E6FA28AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E6FB28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E6FC28AD2F6D00E2337C /* Debug */,
+				D158E6FD28AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E6FE28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E6FF28AD2F6D00E2337C /* Debug */,
+				D158E70028AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E70128AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E70228AD2F6D00E2337C /* Debug */,
+				D158E70328AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D158E6C928AD2F6B00E2337C /* Project object */;
+}
