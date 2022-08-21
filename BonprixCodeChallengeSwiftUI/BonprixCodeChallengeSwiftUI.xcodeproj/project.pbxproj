@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D147269428B18ED5002717BB /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = D147269328B18ED5002717BB /* TestData.json */; };
+		D147269628B23BC3002717BB /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147269528B23BC3002717BB /* BasketViewModel.swift */; };
+		D158E74E28AFC33600E2337C /* BonprixCodeChallengeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E74D28AFC33600E2337C /* BonprixCodeChallengeSwiftUIApp.swift */; };
+		D158E75028AFC33600E2337C /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E74F28AFC33600E2337C /* ShopView.swift */; };
+		D158E75228AFC33700E2337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D158E75128AFC33700E2337C /* Assets.xcassets */; };
+		D158E75528AFC33700E2337C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D158E75428AFC33700E2337C /* Preview Assets.xcassets */; };
+		D158E75F28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E75E28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.swift */; };
+		D158E77928AFC4BC00E2337C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E77828AFC4BC00E2337C /* WebView.swift */; };
+		D158E77D28AFC7B200E2337C /* AssortmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E77C28AFC7B200E2337C /* AssortmentView.swift */; };
+		D158E77F28AFC7BD00E2337C /* AssortmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E77E28AFC7BD00E2337C /* AssortmentViewModel.swift */; };
+		D158E78128AFC82800E2337C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E78028AFC82800E2337C /* Category.swift */; };
+		D158E78328AFC84D00E2337C /* CategoryWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E78228AFC84D00E2337C /* CategoryWrapper.swift */; };
+		D158E78628AFCE0700E2337C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E78528AFCE0700E2337C /* ListView.swift */; };
+		D1673E3228AFE9770082B757 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1673E3128AFE9770082B757 /* AsyncImage.swift */; };
+		D1673E3428AFE9AD0082B757 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1673E3328AFE9AD0082B757 /* ImageLoader.swift */; };
+		D1673E3628AFED440082B757 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1673E3528AFED440082B757 /* Style.swift */; };
+		D1B3BA1D28B003D800E175B4 /* AssortmentTeaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA1C28B003D800E175B4 /* AssortmentTeaserView.swift */; };
+		D1B3BA2928B01B3400E175B4 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B3BA2728B01B2300E175B4 /* Ubuntu-Bold.ttf */; };
+		D1B3BA2A28B01B3400E175B4 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B3BA2528B01B2300E175B4 /* Ubuntu-Medium.ttf */; };
+		D1B3BA2B28B01B3400E175B4 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B3BA2628B01B2300E175B4 /* Ubuntu-Regular.ttf */; };
+		D1B3BA2E28B01DB100E175B4 /* ShopNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA2D28B01DB100E175B4 /* ShopNavigationBar.swift */; };
+		D1B3BA3028B0249B00E175B4 /* ServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA2F28B0249B00E175B4 /* ServerCommunication.swift */; };
+		D1B3BA3228B0325300E175B4 /* ListViewEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA3128B0325300E175B4 /* ListViewEntry.swift */; };
+		D1B3BA3828B034C000E175B4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA3728B034C000E175B4 /* SearchBar.swift */; };
+		D1B3BA3A28B0350500E175B4 /* Modifiers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA3928B0350500E175B4 /* Modifiers+Extensions.swift */; };
+		D1B3BA3C28B035B900E175B4 /* MyBonprix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA3B28B035B900E175B4 /* MyBonprix.swift */; };
+		D1B3BA3F28B04A5400E175B4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA3E28B04A5400E175B4 /* LoginView.swift */; };
+		D1B3BA4428B0F73C00E175B4 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA4328B0F73C00E175B4 /* BasketView.swift */; };
+		D1B3BA4628B1015F00E175B4 /* BasketItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA4528B1015F00E175B4 /* BasketItemView.swift */; };
+		D1B3BA4928B1072700E175B4 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA4828B1072700E175B4 /* ProductDetailView.swift */; };
+		D1B3BA4B28B126E900E175B4 /* EmptyBasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA4A28B126E900E175B4 /* EmptyBasketView.swift */; };
+		D1B3BA4D28B1343700E175B4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA4C28B1343700E175B4 /* Product.swift */; };
+		D1B3BA4F28B1344E00E175B4 /* BasketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA4E28B1344E00E175B4 /* BasketItem.swift */; };
+		D1B3BA5328B1496300E175B4 /* MockServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3BA5228B1496300E175B4 /* MockServerCommunication.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D158E75B28AFC33700E2337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D158E74228AFC33600E2337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D158E74928AFC33600E2337C;
+			remoteInfo = BonprixCodeChallengeSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D147269328B18ED5002717BB /* TestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestData.json; sourceTree = "<group>"; };
+		D147269528B23BC3002717BB /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
+		D158E74A28AFC33600E2337C /* BonprixCodeChallengeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonprixCodeChallengeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E74D28AFC33600E2337C /* BonprixCodeChallengeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonprixCodeChallengeSwiftUIApp.swift; sourceTree = "<group>"; };
+		D158E74F28AFC33600E2337C /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		D158E75128AFC33700E2337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D158E75428AFC33700E2337C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D158E75A28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonprixCodeChallengeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E75E28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonprixCodeChallengeSwiftUITests.swift; sourceTree = "<group>"; };
+		D158E77828AFC4BC00E2337C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		D158E77C28AFC7B200E2337C /* AssortmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentView.swift; sourceTree = "<group>"; };
+		D158E77E28AFC7BD00E2337C /* AssortmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentViewModel.swift; sourceTree = "<group>"; };
+		D158E78028AFC82800E2337C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D158E78228AFC84D00E2337C /* CategoryWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWrapper.swift; sourceTree = "<group>"; };
+		D158E78528AFCE0700E2337C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D1673E3128AFE9770082B757 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		D1673E3328AFE9AD0082B757 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D1673E3528AFED440082B757 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		D1B3BA1C28B003D800E175B4 /* AssortmentTeaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentTeaserView.swift; sourceTree = "<group>"; };
+		D1B3BA2528B01B2300E175B4 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		D1B3BA2628B01B2300E175B4 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		D1B3BA2728B01B2300E175B4 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		D1B3BA2828B01B2300E175B4 /* UFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = UFL.txt; sourceTree = "<group>"; };
+		D1B3BA2C28B01B5400E175B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D1B3BA2D28B01DB100E175B4 /* ShopNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopNavigationBar.swift; sourceTree = "<group>"; };
+		D1B3BA2F28B0249B00E175B4 /* ServerCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommunication.swift; sourceTree = "<group>"; };
+		D1B3BA3128B0325300E175B4 /* ListViewEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewEntry.swift; sourceTree = "<group>"; };
+		D1B3BA3728B034C000E175B4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		D1B3BA3928B0350500E175B4 /* Modifiers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modifiers+Extensions.swift"; sourceTree = "<group>"; };
+		D1B3BA3B28B035B900E175B4 /* MyBonprix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBonprix.swift; sourceTree = "<group>"; };
+		D1B3BA3E28B04A5400E175B4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D1B3BA4328B0F73C00E175B4 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		D1B3BA4528B1015F00E175B4 /* BasketItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketItemView.swift; sourceTree = "<group>"; };
+		D1B3BA4828B1072700E175B4 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		D1B3BA4A28B126E900E175B4 /* EmptyBasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBasketView.swift; sourceTree = "<group>"; };
+		D1B3BA4C28B1343700E175B4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D1B3BA4E28B1344E00E175B4 /* BasketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketItem.swift; sourceTree = "<group>"; };
+		D1B3BA5228B1496300E175B4 /* MockServerCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServerCommunication.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D158E74728AFC33600E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E75728AFC33700E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D158E74128AFC33600E2337C = {
+			isa = PBXGroup;
+			children = (
+				D158E74C28AFC33600E2337C /* BonprixCodeChallengeSwiftUI */,
+				D158E75D28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests */,
+				D158E74B28AFC33600E2337C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D158E74B28AFC33600E2337C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D158E74A28AFC33600E2337C /* BonprixCodeChallengeSwiftUI.app */,
+				D158E75A28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D158E74C28AFC33600E2337C /* BonprixCodeChallengeSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D158E77728AFC39F00E2337C /* App */,
+				D158E78428AFC85C00E2337C /* Model */,
+				D1B3BA3528B033E200E175B4 /* Views */,
+				D1673E3528AFED440082B757 /* Style.swift */,
+				D1B3BA3328B032C400E175B4 /* Services */,
+				D1B3BA2C28B01B5400E175B4 /* Info.plist */,
+				D158E75328AFC33700E2337C /* Preview Content */,
+				D1B3BA3628B033FB00E175B4 /* Assets */,
+			);
+			path = BonprixCodeChallengeSwiftUI;
+			sourceTree = "<group>";
+		};
+		D158E75328AFC33700E2337C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D158E75428AFC33700E2337C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D158E75D28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D158E75E28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.swift */,
+				D147269328B18ED5002717BB /* TestData.json */,
+				D1B3BA5228B1496300E175B4 /* MockServerCommunication.swift */,
+			);
+			path = BonprixCodeChallengeSwiftUITests;
+			sourceTree = "<group>";
+		};
+		D158E77728AFC39F00E2337C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D158E74D28AFC33600E2337C /* BonprixCodeChallengeSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D158E78428AFC85C00E2337C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D158E78028AFC82800E2337C /* Category.swift */,
+				D158E78228AFC84D00E2337C /* CategoryWrapper.swift */,
+				D1B3BA4C28B1343700E175B4 /* Product.swift */,
+				D1B3BA4E28B1344E00E175B4 /* BasketItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1B3BA1828AFF30400E175B4 /* Assortment */ = {
+			isa = PBXGroup;
+			children = (
+				D158E77C28AFC7B200E2337C /* AssortmentView.swift */,
+				D1B3BA2D28B01DB100E175B4 /* ShopNavigationBar.swift */,
+				D1B3BA1C28B003D800E175B4 /* AssortmentTeaserView.swift */,
+				D158E77E28AFC7BD00E2337C /* AssortmentViewModel.swift */,
+			);
+			path = Assortment;
+			sourceTree = "<group>";
+		};
+		D1B3BA1928AFF31F00E175B4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D158E78528AFCE0700E2337C /* ListView.swift */,
+				D1B3BA3128B0325300E175B4 /* ListViewEntry.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		D1B3BA1E28B003F900E175B4 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3BA3E28B04A5400E175B4 /* LoginView.swift */,
+				D158E77828AFC4BC00E2337C /* WebView.swift */,
+				D1673E3128AFE9770082B757 /* AsyncImage.swift */,
+				D1B3BA3728B034C000E175B4 /* SearchBar.swift */,
+				D1B3BA3928B0350500E175B4 /* Modifiers+Extensions.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		D1B3BA2428B01B2300E175B4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3BA2528B01B2300E175B4 /* Ubuntu-Medium.ttf */,
+				D1B3BA2628B01B2300E175B4 /* Ubuntu-Regular.ttf */,
+				D1B3BA2728B01B2300E175B4 /* Ubuntu-Bold.ttf */,
+				D1B3BA2828B01B2300E175B4 /* UFL.txt */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D1B3BA3328B032C400E175B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D1673E3328AFE9AD0082B757 /* ImageLoader.swift */,
+				D1B3BA2F28B0249B00E175B4 /* ServerCommunication.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D1B3BA3428B033D900E175B4 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				D158E74F28AFC33600E2337C /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		D1B3BA3528B033E200E175B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3BA3428B033D900E175B4 /* Shop */,
+				D1B3BA1828AFF30400E175B4 /* Assortment */,
+				D1B3BA1928AFF31F00E175B4 /* List */,
+				D1B3BA4228B0F70E00E175B4 /* Basket */,
+				D1B3BA4728B1070C00E175B4 /* ProductDetail */,
+				D1B3BA3D28B035BB00E175B4 /* MyBonprix */,
+				D1B3BA1E28B003F900E175B4 /* CommonViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1B3BA3628B033FB00E175B4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D158E75128AFC33700E2337C /* Assets.xcassets */,
+				D1B3BA2428B01B2300E175B4 /* fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D1B3BA3D28B035BB00E175B4 /* MyBonprix */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3BA3B28B035B900E175B4 /* MyBonprix.swift */,
+			);
+			path = MyBonprix;
+			sourceTree = "<group>";
+		};
+		D1B3BA4228B0F70E00E175B4 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3BA4328B0F73C00E175B4 /* BasketView.swift */,
+				D147269528B23BC3002717BB /* BasketViewModel.swift */,
+				D1B3BA4A28B126E900E175B4 /* EmptyBasketView.swift */,
+				D1B3BA4528B1015F00E175B4 /* BasketItemView.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		D1B3BA4728B1070C00E175B4 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3BA4828B1072700E175B4 /* ProductDetailView.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D158E74928AFC33600E2337C /* BonprixCodeChallengeSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E76E28AFC33700E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeSwiftUI" */;
+			buildPhases = (
+				D158E74628AFC33600E2337C /* Sources */,
+				D158E74728AFC33600E2337C /* Frameworks */,
+				D158E74828AFC33600E2337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonprixCodeChallengeSwiftUI;
+			productName = BonprixCodeChallengeSwiftUI;
+			productReference = D158E74A28AFC33600E2337C /* BonprixCodeChallengeSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D158E75928AFC33700E2337C /* BonprixCodeChallengeSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E77128AFC33700E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeSwiftUITests" */;
+			buildPhases = (
+				D158E75628AFC33700E2337C /* Sources */,
+				D158E75728AFC33700E2337C /* Frameworks */,
+				D158E75828AFC33700E2337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D158E75C28AFC33700E2337C /* PBXTargetDependency */,
+			);
+			name = BonprixCodeChallengeSwiftUITests;
+			productName = BonprixCodeChallengeSwiftUITests;
+			productReference = D158E75A28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D158E74228AFC33600E2337C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D158E74928AFC33600E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D158E75928AFC33700E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D158E74928AFC33600E2337C;
+					};
+				};
+			};
+			buildConfigurationList = D158E74528AFC33600E2337C /* Build configuration list for PBXProject "BonprixCodeChallengeSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D158E74128AFC33600E2337C;
+			productRefGroup = D158E74B28AFC33600E2337C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D158E74928AFC33600E2337C /* BonprixCodeChallengeSwiftUI */,
+				D158E75928AFC33700E2337C /* BonprixCodeChallengeSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D158E74828AFC33600E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B3BA2B28B01B3400E175B4 /* Ubuntu-Regular.ttf in Resources */,
+				D1B3BA2928B01B3400E175B4 /* Ubuntu-Bold.ttf in Resources */,
+				D1B3BA2A28B01B3400E175B4 /* Ubuntu-Medium.ttf in Resources */,
+				D158E75528AFC33700E2337C /* Preview Assets.xcassets in Resources */,
+				D158E75228AFC33700E2337C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E75828AFC33700E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D147269428B18ED5002717BB /* TestData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D158E74628AFC33600E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B3BA4428B0F73C00E175B4 /* BasketView.swift in Sources */,
+				D1B3BA3C28B035B900E175B4 /* MyBonprix.swift in Sources */,
+				D158E78628AFCE0700E2337C /* ListView.swift in Sources */,
+				D1B3BA3028B0249B00E175B4 /* ServerCommunication.swift in Sources */,
+				D1B3BA4F28B1344E00E175B4 /* BasketItem.swift in Sources */,
+				D158E77928AFC4BC00E2337C /* WebView.swift in Sources */,
+				D1673E3428AFE9AD0082B757 /* ImageLoader.swift in Sources */,
+				D158E75028AFC33600E2337C /* ShopView.swift in Sources */,
+				D1B3BA3828B034C000E175B4 /* SearchBar.swift in Sources */,
+				D1B3BA4B28B126E900E175B4 /* EmptyBasketView.swift in Sources */,
+				D158E78328AFC84D00E2337C /* CategoryWrapper.swift in Sources */,
+				D158E77D28AFC7B200E2337C /* AssortmentView.swift in Sources */,
+				D158E74E28AFC33600E2337C /* BonprixCodeChallengeSwiftUIApp.swift in Sources */,
+				D1B3BA4628B1015F00E175B4 /* BasketItemView.swift in Sources */,
+				D147269628B23BC3002717BB /* BasketViewModel.swift in Sources */,
+				D1673E3228AFE9770082B757 /* AsyncImage.swift in Sources */,
+				D1B3BA4928B1072700E175B4 /* ProductDetailView.swift in Sources */,
+				D1B3BA3A28B0350500E175B4 /* Modifiers+Extensions.swift in Sources */,
+				D1B3BA1D28B003D800E175B4 /* AssortmentTeaserView.swift in Sources */,
+				D1B3BA4D28B1343700E175B4 /* Product.swift in Sources */,
+				D158E77F28AFC7BD00E2337C /* AssortmentViewModel.swift in Sources */,
+				D1B3BA3228B0325300E175B4 /* ListViewEntry.swift in Sources */,
+				D1B3BA2E28B01DB100E175B4 /* ShopNavigationBar.swift in Sources */,
+				D1B3BA3F28B04A5400E175B4 /* LoginView.swift in Sources */,
+				D158E78128AFC82800E2337C /* Category.swift in Sources */,
+				D1673E3628AFED440082B757 /* Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E75628AFC33700E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E75F28AFC33700E2337C /* BonprixCodeChallengeSwiftUITests.swift in Sources */,
+				D1B3BA5328B1496300E175B4 /* MockServerCommunication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D158E75C28AFC33700E2337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D158E74928AFC33600E2337C /* BonprixCodeChallengeSwiftUI */;
+			targetProxy = D158E75B28AFC33700E2337C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D158E76C28AFC33700E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D158E76D28AFC33700E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D158E76F28AFC33700E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BonprixCodeChallengeSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonprixCodeChallengeSwiftUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BpCC-SwiftUI";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D158E77028AFC33700E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BonprixCodeChallengeSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonprixCodeChallengeSwiftUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BpCC-SwiftUI";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D158E77228AFC33700E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonprixCodeChallengeSwiftUI.app/BonprixCodeChallengeSwiftUI";
+			};
+			name = Debug;
+		};
+		D158E77328AFC33700E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonprixCodeChallengeSwiftUI.app/BonprixCodeChallengeSwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D158E74528AFC33600E2337C /* Build configuration list for PBXProject "BonprixCodeChallengeSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E76C28AFC33700E2337C /* Debug */,
+				D158E76D28AFC33700E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E76E28AFC33700E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E76F28AFC33700E2337C /* Debug */,
+				D158E77028AFC33700E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E77128AFC33700E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E77228AFC33700E2337C /* Debug */,
+				D158E77328AFC33700E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D158E74228AFC33600E2337C /* Project object */;
+}
