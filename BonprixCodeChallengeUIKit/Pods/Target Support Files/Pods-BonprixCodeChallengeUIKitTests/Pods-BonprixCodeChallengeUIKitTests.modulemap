@@ -1,0 +1,6 @@
+framework module Pods_BonprixCodeChallengeUIKitTests {
+  umbrella header "Pods-BonprixCodeChallengeUIKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

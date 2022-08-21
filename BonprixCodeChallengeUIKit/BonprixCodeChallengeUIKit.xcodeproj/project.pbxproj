@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E405800F1E76D21E43C96FD /* Pods_BonprixCodeChallengeUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A54B0C29627DA85E20ABE8 /* Pods_BonprixCodeChallengeUIKit.framework */; };
+		65B169EB4BE6DD2607073708 /* Pods_BonprixCodeChallengeUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824B97A6ECD963511ADEB47B /* Pods_BonprixCodeChallengeUIKitTests.framework */; };
+		D158E6D528AD2F6B00E2337C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6D428AD2F6B00E2337C /* AppDelegate.swift */; };
+		D158E6DE28AD2F6D00E2337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D158E6DD28AD2F6D00E2337C /* Assets.xcassets */; };
+		D158E6EC28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E6EB28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift */; };
+		D158E70528AD30E100E2337C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E70428AD30E100E2337C /* WebViewController.swift */; };
+		D158E70728AD325A00E2337C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E70628AD325A00E2337C /* Extensions.swift */; };
+		D158E70928AD33E800E2337C /* AssortmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E70828AD33E800E2337C /* AssortmentViewController.swift */; };
+		D158E71028AD42E900E2337C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E70F28AD42E900E2337C /* Category.swift */; };
+		D158E71328AD533400E2337C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E71228AD526100E2337C /* ListViewController.swift */; };
+		D158E71628AD7E7F00E2337C /* AssortmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E71528AD7E7F00E2337C /* AssortmentTableViewCell.swift */; };
+		D158E71728AD7F7000E2337C /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E71128AD4B1C00E2337C /* Style.swift */; };
+		D158E71928AE489A00E2337C /* StretchyTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E71828AE489A00E2337C /* StretchyTableHeaderView.swift */; };
+		D158E71F28AE51A700E2337C /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D158E71B28AE51A600E2337C /* Ubuntu-Medium.ttf */; };
+		D158E72028AE51A700E2337C /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D158E71C28AE51A600E2337C /* Ubuntu-Bold.ttf */; };
+		D158E72128AE51A700E2337C /* UFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D158E71D28AE51A600E2337C /* UFL.txt */; };
+		D158E72228AE51A700E2337C /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D158E71E28AE51A600E2337C /* Ubuntu-Regular.ttf */; };
+		D158E72528AE54E100E2337C /* CategoryWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E72428AE54E100E2337C /* CategoryWrapper.swift */; };
+		D158E72828AE591100E2337C /* AssortmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E72728AE591100E2337C /* AssortmentViewModel.swift */; };
+		D158E72A28AEC9C900E2337C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E72928AEC9C900E2337C /* ListViewModel.swift */; };
+		D158E72D28AED08300E2337C /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E72C28AED08300E2337C /* AppDelegate+Injection.swift */; };
+		D158E73028AED16C00E2337C /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E72F28AED16C00E2337C /* ListViewCell.swift */; };
+		D158E73428AED27800E2337C /* ServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E73328AED27800E2337C /* ServerCommunication.swift */; };
+		D158E73828AEEE8E00E2337C /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = D158E73728AEEE8E00E2337C /* TestData.json */; };
+		D158E74028AFB7FD00E2337C /* MockServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158E73F28AFB7FD00E2337C /* MockServerCommunication.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D158E6E828AD2F6D00E2337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D158E6C928AD2F6B00E2337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D158E6D028AD2F6B00E2337C;
+			remoteInfo = BonprixCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00589C8E6EE65CE2B969AFDE /* Pods-BonprixCodeChallengeUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallengeUIKit.release.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallengeUIKit/Pods-BonprixCodeChallengeUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		0DA4AB9BAED34340CF9AFD41 /* Pods-BonprixCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallenge/Pods-BonprixCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		41525E0C83A600567D87461A /* Pods-BonprixCodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallengeTests/Pods-BonprixCodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		65A54B0C29627DA85E20ABE8 /* Pods_BonprixCodeChallengeUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonprixCodeChallengeUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A063B98756A411BF1B70F7A /* Pods-BonprixCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallenge.release.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallenge/Pods-BonprixCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		70057CB4D60B9D447CA03599 /* Pods-BonprixCodeChallengeUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallengeUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallengeUIKitTests/Pods-BonprixCodeChallengeUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7672C932ADCB0AD504899BDD /* Pods-BonprixCodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallengeTests/Pods-BonprixCodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		824B97A6ECD963511ADEB47B /* Pods_BonprixCodeChallengeUIKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonprixCodeChallengeUIKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86878F902749C1FA040107 /* Pods-BonprixCodeChallengeUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallengeUIKit.debug.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallengeUIKit/Pods-BonprixCodeChallengeUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D158E6D128AD2F6B00E2337C /* BonprixCodeChallengeUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonprixCodeChallengeUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E6D428AD2F6B00E2337C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D158E6DD28AD2F6D00E2337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D158E6E228AD2F6D00E2337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D158E6E728AD2F6D00E2337C /* BonprixCodeChallengeUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonprixCodeChallengeUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D158E6EB28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonprixCodeChallengeTests.swift; sourceTree = "<group>"; };
+		D158E70428AD30E100E2337C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D158E70628AD325A00E2337C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D158E70828AD33E800E2337C /* AssortmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentViewController.swift; sourceTree = "<group>"; };
+		D158E70F28AD42E900E2337C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D158E71128AD4B1C00E2337C /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		D158E71228AD526100E2337C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D158E71528AD7E7F00E2337C /* AssortmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentTableViewCell.swift; sourceTree = "<group>"; };
+		D158E71828AE489A00E2337C /* StretchyTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTableHeaderView.swift; sourceTree = "<group>"; };
+		D158E71B28AE51A600E2337C /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		D158E71C28AE51A600E2337C /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		D158E71D28AE51A600E2337C /* UFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UFL.txt; sourceTree = "<group>"; };
+		D158E71E28AE51A600E2337C /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		D158E72428AE54E100E2337C /* CategoryWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWrapper.swift; sourceTree = "<group>"; };
+		D158E72728AE591100E2337C /* AssortmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssortmentViewModel.swift; sourceTree = "<group>"; };
+		D158E72928AEC9C900E2337C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		D158E72C28AED08300E2337C /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
+		D158E72F28AED16C00E2337C /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		D158E73328AED27800E2337C /* ServerCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommunication.swift; sourceTree = "<group>"; };
+		D158E73728AEEE8E00E2337C /* TestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestData.json; sourceTree = "<group>"; };
+		D158E73F28AFB7FD00E2337C /* MockServerCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServerCommunication.swift; sourceTree = "<group>"; };
+		E974F858EDEAA1FA1D24FFA0 /* Pods-BonprixCodeChallengeUIKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonprixCodeChallengeUIKitTests.release.xcconfig"; path = "Target Support Files/Pods-BonprixCodeChallengeUIKitTests/Pods-BonprixCodeChallengeUIKitTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D158E6CE28AD2F6B00E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E405800F1E76D21E43C96FD /* Pods_BonprixCodeChallengeUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6E428AD2F6D00E2337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B169EB4BE6DD2607073708 /* Pods_BonprixCodeChallengeUIKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199083283C9B8EA798013965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DA4AB9BAED34340CF9AFD41 /* Pods-BonprixCodeChallenge.debug.xcconfig */,
+				6A063B98756A411BF1B70F7A /* Pods-BonprixCodeChallenge.release.xcconfig */,
+				7672C932ADCB0AD504899BDD /* Pods-BonprixCodeChallengeTests.debug.xcconfig */,
+				41525E0C83A600567D87461A /* Pods-BonprixCodeChallengeTests.release.xcconfig */,
+				8C86878F902749C1FA040107 /* Pods-BonprixCodeChallengeUIKit.debug.xcconfig */,
+				00589C8E6EE65CE2B969AFDE /* Pods-BonprixCodeChallengeUIKit.release.xcconfig */,
+				70057CB4D60B9D447CA03599 /* Pods-BonprixCodeChallengeUIKitTests.debug.xcconfig */,
+				E974F858EDEAA1FA1D24FFA0 /* Pods-BonprixCodeChallengeUIKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9FC6AF1F237FE8D79239F50D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A54B0C29627DA85E20ABE8 /* Pods_BonprixCodeChallengeUIKit.framework */,
+				824B97A6ECD963511ADEB47B /* Pods_BonprixCodeChallengeUIKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D147269028B18C52002717BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D158E73328AED27800E2337C /* ServerCommunication.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D147269128B18CCD002717BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D158E71428AD7E6F00E2337C /* Assortment */,
+				D158E72B28AECF0600E2337C /* ListView */,
+				D158E72628AE550900E2337C /* Webview */,
+				D158E72E28AED15200E2337C /* CommonViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D158E6C828AD2F6B00E2337C = {
+			isa = PBXGroup;
+			children = (
+				D158E6D328AD2F6B00E2337C /* BonprixCodeChallenge */,
+				D158E6EA28AD2F6D00E2337C /* BonprixCodeChallengeTests */,
+				D158E6D228AD2F6B00E2337C /* Products */,
+				199083283C9B8EA798013965 /* Pods */,
+				9FC6AF1F237FE8D79239F50D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D158E6D228AD2F6B00E2337C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6D128AD2F6B00E2337C /* BonprixCodeChallengeUIKit.app */,
+				D158E6E728AD2F6D00E2337C /* BonprixCodeChallengeUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D158E6D328AD2F6B00E2337C /* BonprixCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D158E73128AED1B400E2337C /* App */,
+				D158E72328AE54D500E2337C /* Model */,
+				D147269128B18CCD002717BB /* Views */,
+				D147269028B18C52002717BB /* Services */,
+				D158E73228AED1BF00E2337C /* Assets */,
+				D158E70628AD325A00E2337C /* Extensions.swift */,
+				D158E71128AD4B1C00E2337C /* Style.swift */,
+				D158E6E228AD2F6D00E2337C /* Info.plist */,
+			);
+			path = BonprixCodeChallenge;
+			sourceTree = "<group>";
+		};
+		D158E6EA28AD2F6D00E2337C /* BonprixCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6EB28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift */,
+				D158E73728AEEE8E00E2337C /* TestData.json */,
+				D158E73F28AFB7FD00E2337C /* MockServerCommunication.swift */,
+			);
+			path = BonprixCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		D158E71428AD7E6F00E2337C /* Assortment */ = {
+			isa = PBXGroup;
+			children = (
+				D158E70828AD33E800E2337C /* AssortmentViewController.swift */,
+				D158E72728AE591100E2337C /* AssortmentViewModel.swift */,
+				D158E71528AD7E7F00E2337C /* AssortmentTableViewCell.swift */,
+			);
+			path = Assortment;
+			sourceTree = "<group>";
+		};
+		D158E71A28AE518B00E2337C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D158E71C28AE51A600E2337C /* Ubuntu-Bold.ttf */,
+				D158E71B28AE51A600E2337C /* Ubuntu-Medium.ttf */,
+				D158E71E28AE51A600E2337C /* Ubuntu-Regular.ttf */,
+				D158E71D28AE51A600E2337C /* UFL.txt */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D158E72328AE54D500E2337C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D158E70F28AD42E900E2337C /* Category.swift */,
+				D158E72428AE54E100E2337C /* CategoryWrapper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D158E72628AE550900E2337C /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				D158E70428AD30E100E2337C /* WebViewController.swift */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
+		D158E72B28AECF0600E2337C /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				D158E71228AD526100E2337C /* ListViewController.swift */,
+				D158E72928AEC9C900E2337C /* ListViewModel.swift */,
+				D158E72F28AED16C00E2337C /* ListViewCell.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		D158E72E28AED15200E2337C /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				D158E71828AE489A00E2337C /* StretchyTableHeaderView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		D158E73128AED1B400E2337C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6D428AD2F6B00E2337C /* AppDelegate.swift */,
+				D158E72C28AED08300E2337C /* AppDelegate+Injection.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D158E73228AED1BF00E2337C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D158E6DD28AD2F6D00E2337C /* Assets.xcassets */,
+				D158E71A28AE518B00E2337C /* fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D158E6D028AD2F6B00E2337C /* BonprixCodeChallengeUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E6FB28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeUIKit" */;
+			buildPhases = (
+				D73767DB61D4F01D0761A7A3 /* [CP] Check Pods Manifest.lock */,
+				D158E6CD28AD2F6B00E2337C /* Sources */,
+				D158E6CE28AD2F6B00E2337C /* Frameworks */,
+				D158E6CF28AD2F6B00E2337C /* Resources */,
+				67394AAF79469B89FD0AD175 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonprixCodeChallengeUIKit;
+			productName = BonprixCodeChallenge;
+			productReference = D158E6D128AD2F6B00E2337C /* BonprixCodeChallengeUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D158E6E628AD2F6D00E2337C /* BonprixCodeChallengeUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D158E6FE28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeUIKitTests" */;
+			buildPhases = (
+				D0D1133877DA44E27AAF0C26 /* [CP] Check Pods Manifest.lock */,
+				D158E6E328AD2F6D00E2337C /* Sources */,
+				D158E6E428AD2F6D00E2337C /* Frameworks */,
+				D158E6E528AD2F6D00E2337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D158E6E928AD2F6D00E2337C /* PBXTargetDependency */,
+			);
+			name = BonprixCodeChallengeUIKitTests;
+			productName = BonprixCodeChallengeTests;
+			productReference = D158E6E728AD2F6D00E2337C /* BonprixCodeChallengeUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D158E6C928AD2F6B00E2337C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D158E6D028AD2F6B00E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D158E6E628AD2F6D00E2337C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D158E6D028AD2F6B00E2337C;
+					};
+				};
+			};
+			buildConfigurationList = D158E6CC28AD2F6B00E2337C /* Build configuration list for PBXProject "BonprixCodeChallengeUIKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D158E6C828AD2F6B00E2337C;
+			productRefGroup = D158E6D228AD2F6B00E2337C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D158E6D028AD2F6B00E2337C /* BonprixCodeChallengeUIKit */,
+				D158E6E628AD2F6D00E2337C /* BonprixCodeChallengeUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D158E6CF28AD2F6B00E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E72228AE51A700E2337C /* Ubuntu-Regular.ttf in Resources */,
+				D158E72028AE51A700E2337C /* Ubuntu-Bold.ttf in Resources */,
+				D158E72128AE51A700E2337C /* UFL.txt in Resources */,
+				D158E6DE28AD2F6D00E2337C /* Assets.xcassets in Resources */,
+				D158E71F28AE51A700E2337C /* Ubuntu-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6E528AD2F6D00E2337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E73828AEEE8E00E2337C /* TestData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67394AAF79469B89FD0AD175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BonprixCodeChallengeUIKit/Pods-BonprixCodeChallengeUIKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BonprixCodeChallengeUIKit/Pods-BonprixCodeChallengeUIKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BonprixCodeChallengeUIKit/Pods-BonprixCodeChallengeUIKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D1133877DA44E27AAF0C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BonprixCodeChallengeUIKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73767DB61D4F01D0761A7A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BonprixCodeChallengeUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D158E6CD28AD2F6B00E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E71028AD42E900E2337C /* Category.swift in Sources */,
+				D158E70728AD325A00E2337C /* Extensions.swift in Sources */,
+				D158E71328AD533400E2337C /* ListViewController.swift in Sources */,
+				D158E72528AE54E100E2337C /* CategoryWrapper.swift in Sources */,
+				D158E73428AED27800E2337C /* ServerCommunication.swift in Sources */,
+				D158E71928AE489A00E2337C /* StretchyTableHeaderView.swift in Sources */,
+				D158E6D528AD2F6B00E2337C /* AppDelegate.swift in Sources */,
+				D158E73028AED16C00E2337C /* ListViewCell.swift in Sources */,
+				D158E70528AD30E100E2337C /* WebViewController.swift in Sources */,
+				D158E72D28AED08300E2337C /* AppDelegate+Injection.swift in Sources */,
+				D158E70928AD33E800E2337C /* AssortmentViewController.swift in Sources */,
+				D158E71628AD7E7F00E2337C /* AssortmentTableViewCell.swift in Sources */,
+				D158E72A28AEC9C900E2337C /* ListViewModel.swift in Sources */,
+				D158E72828AE591100E2337C /* AssortmentViewModel.swift in Sources */,
+				D158E71728AD7F7000E2337C /* Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D158E6E328AD2F6D00E2337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158E6EC28AD2F6D00E2337C /* BonprixCodeChallengeTests.swift in Sources */,
+				D158E74028AFB7FD00E2337C /* MockServerCommunication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D158E6E928AD2F6D00E2337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D158E6D028AD2F6B00E2337C /* BonprixCodeChallengeUIKit */;
+			targetProxy = D158E6E828AD2F6D00E2337C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D158E6F928AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D158E6FA28AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D158E6FC28AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C86878F902749C1FA040107 /* Pods-BonprixCodeChallengeUIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonprixCodeChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BpCC-UIKit";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D158E6FD28AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00589C8E6EE65CE2B969AFDE /* Pods-BonprixCodeChallengeUIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonprixCodeChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BpCC-UIKit";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D158E6FF28AD2F6D00E2337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70057CB4D60B9D447CA03599 /* Pods-BonprixCodeChallengeUIKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonprixCodeChallengeUIKit.app/BonprixCodeChallengeUIKit";
+			};
+			name = Debug;
+		};
+		D158E70028AD2F6D00E2337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E974F858EDEAA1FA1D24FFA0 /* Pods-BonprixCodeChallengeUIKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.treibaer.dev.BonprixCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonprixCodeChallengeUIKit.app/BonprixCodeChallengeUIKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D158E6CC28AD2F6B00E2337C /* Build configuration list for PBXProject "BonprixCodeChallengeUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E6F928AD2F6D00E2337C /* Debug */,
+				D158E6FA28AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E6FB28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E6FC28AD2F6D00E2337C /* Debug */,
+				D158E6FD28AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D158E6FE28AD2F6D00E2337C /* Build configuration list for PBXNativeTarget "BonprixCodeChallengeUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D158E6FF28AD2F6D00E2337C /* Debug */,
+				D158E70028AD2F6D00E2337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D158E6C928AD2F6B00E2337C /* Project object */;
+}
